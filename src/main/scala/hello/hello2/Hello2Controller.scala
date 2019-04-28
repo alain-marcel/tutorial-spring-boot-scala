@@ -3,8 +3,9 @@ package hello.hello2
 import org.springframework.web.bind.annotation.{PostMapping, RequestBody, RestController}
 
 /**
-  * DO NO WORK
   * A POST request with simple response.
+  * 
+  * POST http://localhost:8080/hello2       { "name: "bob" }
   */
 @RestController class Hello2Controller {
   @PostMapping(Array("/hello2"))
